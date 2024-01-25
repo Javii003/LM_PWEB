@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #8a8989;
+   background-image: url(../css/4444.PNG);
 }
 
 header {
@@ -49,6 +49,9 @@ section h2 {
     background-color: #ffffff;
     margin-bottom: 10px;
     padding: 10px;
+    display: flex;
+    justify-content: space-between
+    
 }
 
 footer {
@@ -56,4 +59,20 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+}
+#portada{
+   background-color: aqua;
+   border-radius: 20px;
+   height: 15px;
+   width: 15px;
+}
+
+    
+
+.imagenes{
+     border-radius: 10%;
+}
+#borde1{
+    background-color: #333;
+    width: max-content;
 }
