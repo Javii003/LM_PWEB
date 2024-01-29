@@ -9,26 +9,32 @@
 <body>
     
     <header>
-        <h1>SMR-EVENTOS</h1>
-        <nav>
-            <ul>
+        <div>
+            <h1>SMR-EVENTOS</h1>
+            <nav>
+                <ul>
                 <li><a href="#Inicio">Inicio</a></li>
                 <li><a href="#Reserva">Reserva</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="Localizacion">Localizacion</a></li>
-            </ul>
-        </nav>
+                </ul>
+            </nav>
+         
+        </div>
+           <div>
+                <img src="../LM_PWEB/css/5555.PNG" alt="">
+            </div>
     </header>
 
     <main>
         <section>
             <h2 id="borde1">Próximos Eventos (+21)</h2>
             <div class="evento">
-                <div>
-                    <img src="../LM_PWEB/css/1111.PNG" alt="" class="imagenes">
+                <div class="descripcion">
+                    <img src="../LM_PWEB/css/1111.PNG" alt="" class="imagenes"><p>asdasd</p>
                 </div>
-                <div id="derecha">
-                    <img src="../LM_PWEB/css/2222.PNG" alt="" class="imagenes">
+                <div id="derecha" class="descripcion">
+                    <p>asdasd</p><img src="../LM_PWEB/css/2222.PNG" alt="" class="imagenes">
                 </div>
             </div>
             
@@ -37,23 +43,27 @@
         <section>
             <h2  id="borde1">Proximos Eventos (+18)</h2>
             <div class="evento">
-                <h3></h3>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div class="evento">
-                <h3></h3>
-                <p></p>
-                <p></p>
-                <p></p>
+                <div>
+                    <img src="../LM_PWEB/css/6666.PNG" alt="" class="imagenes">
+                </div>
+                <div id="derecha">
+                    <img src="../LM_PWEB/css/7777.PNG" alt="" class="imagenes">
+                </div>
             </div>
         </section>
 
         <section id="contacto">
             <h2  id="borde1">Contacto</h2>
-            <p>Correo electrónico:</p>
-            <p>Teléfono:</p>
+            <table>
+                <tr>
+                  <td>Gmail:</td>
+                  <td><input type="gmail" name="gmail" /></td>
+                </tr>
+                <tr>
+                  <td>Telefono:</td>
+                  <td><input type="telf" name="telf" /></td>
+                </tr>
+              </table>
         </section>
     </main>
 

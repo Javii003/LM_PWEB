@@ -8,11 +8,20 @@ body {
 header {
     background-color: #333;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
 }
 
 header h1 {
     color: rgb(255, 109, 109);
     display: inline;
+}
+header img{
+    border-radius: 20px;
+    height: 65px;
+    width: 65px;
 }
 
 nav ul {
@@ -71,8 +80,13 @@ footer {
 
 .imagenes{
      border-radius: 10%;
+     height: 275px;
+     width: 200px;
 }
 #borde1{
     background-color: #333;
     width: max-content;
+}
+.descripcion{
+    display: flex;
 }

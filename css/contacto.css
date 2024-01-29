@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: url(../css/4444.PNG);
+}
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+header h1 {
+    color: rgb(255, 109, 109);
+    display: inline;
+}
+header img{
+    border-radius: 20px;
+    height: 65px;
+    width: 65px;
+}
+
+nav ul {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
