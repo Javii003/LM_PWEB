@@ -4,6 +4,7 @@ body {
     padding: 0;
    background-image: url(../css/4444.PNG);
 }
+
 header {
     background-color: #333;
     padding: 20px;
@@ -12,6 +13,7 @@ header {
     align-items: flex-start;
     
 }
+
 header h1 {
     color: rgb(255, 109, 109);
     display: inline;
@@ -36,4 +38,91 @@ nav ul li {
 nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: rgb(255, 109, 109);
+    
+}
+
+.evento {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#portada{
+   background-color: aqua;
+   border-radius: 20px;
+   height: 15px;
+   width: 15px;
+}
+
+    
+
+.imagenes{
+     border-radius: 10%;
+     height: 275px;
+     width: 200px;
+}
+#borde1{
+    background-color: #333;
+    width: max-content;
+}
+.descripcion{
+    display: flex;
+}
+#event-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
